@@ -1,0 +1,1 @@
+"C:\Program Files\kdenlive\bin\ffmpeg.exe" -f dshow -i audio="@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{A1784CE0-2B0A-4486-B4DB-C937A2CEA810}" -rtbufsize 100M -f gdigrab -framerate 30 -probesize 10M -draw_mouse 1 -i desktop -acodec aac -c:v libx264 -r 30 -preset ultrafast -tune zerolatency -crf 25 -pix_fmt yuv420p "screen.mp4"
